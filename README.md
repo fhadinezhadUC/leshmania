@@ -20,7 +20,7 @@ Finally, using this output.txt file and [leishmania.R script](https://github.com
 
 Frequency of identical genes (same organism, same color)
 ![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/figures/genes2.jpeg)
-![alt text](![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/figures/Genes.jpeg)
+![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/figures/Genes.jpeg)
 
 
 Frequency of GeneOrganism. To see how many repeats of same gene with same source organism we have in the data. (same organism, same color)
