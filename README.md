@@ -1,6 +1,5 @@
-
-
 ######In order to map the genes to their genome:
+
 > First, rename all the genome .fasta files to their sequence name from the first line of the .fasta file by running the [rename.sh script](https://github.com/fhadinezhadUC/leshmania/blob/master/editNames.sh).  
 
 > Second, in order to do some preprocessing on the TryTrypDB_Aug2017_alltRNAs.tfam.fas file to revome the even lines (which is the gene sequence and is repeated in araquery field) using the fallowing code:
