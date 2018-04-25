@@ -2,19 +2,19 @@
 
 - First, rename all the genome .fasta files to their sequence name from the first line of the .fasta file by running the [rename.sh script](https://github.com/fhadinezhadUC/leshmania/blob/master/editNames.sh).  
 
-- Second, in order to do some preprocessing on the TryTrypDB_Aug2017_alltRNAs.tfam.fas file to revome the even lines (which is the gene sequence and is repeated in araquery field) using the fallowing code:
+- Second, Some preprocessing on the TryTrypDB_Aug2017_alltRNAs.tfam.fas file to remove the even lines (which is the gene sequence and is repeated in "araquery" field) using the fallowing code:
 
 `
 awk '{if(NR%2==1){print $0}}' TryTrypDB_Aug2017_alltRNAs.tfam.fas > temp.txt
 `
 
-- Then, remove ines that do not have the sourceorganism field. (we will deal with hese files later!) 
+- Then, remove lines that do not have the sourceorganism field. (we will deal with these files later!) 
 
 `
 awk '{for(i=1; i < NF; i++){if(match($i,"sourceorganism*")){print $0; break;}}}' temp.txt > inputgenefile.txt
 `
 
-- Third, read the TryTrypDB_Aug2017_alltRNAs.tfam.fas file line by line and take each gene and using blast align it to its source organism genome. Then, make an output.txt file like the bellow using [alignseq.sh script](https://github.com/fhadinezhadUC/leshmania/blob/master/alignseq.sh).
+- Third, read the TryTrypDB_Aug2017_alltRNAs.tfam.fas file line by line, take each gene, and using blast align it to its source organism genome. Then, make an output.txt file like the example shown bellow using [alignseq.sh script](https://github.com/fhadinezhadUC/leshmania/blob/master/alignseq.sh).
 ```
 Blechomonas_ayalai_B08-376|ggggatgtagctcaaatggtagagcgaccgcttagcatgcggtaggtattgggatcgatacccaacttctccatc|3 hits
 212366 212440
