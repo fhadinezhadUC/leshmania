@@ -10,23 +10,27 @@ awk '{for(i=1; i < NF; i++){if(match($i,"sourceorganism*")){print $0; break;}}}'
 
 Third, read the TryTrypDB_Aug2017_alltRNAs.tfam.fas file line by line and take each gene and using blast align it to its source organism genome. Then, make an output.txt file like the bellow using [alignseq.sh script](https://github.com/fhadinezhadUC/leshmania/blob/master/alignseq.sh).
 
+Blechomonas_ayalai_B08-376|ggggatgtagctcaaatggtagagcgaccgcttagcatgcggtaggtattgggatcgatacccaacttctccatc|3 hits
+212366 212440
+133 205
+1008 968
 
-# Finds the source organism
-# Makes a database with it
-# Put the database in a folder with database name
-# Finds the query gene sequence and put it in the query.txt file
-# Run the blast command 
-# Put the output of blast command in the file Hit
-# Calculate number of hits of that gene on its source Organism and the position
-# Edit the output.txt file by adding the information 
-# Needs a preprocessing on the sequence file to remove the lines with even number, and extracts those genes that have Sourceorganism field
-# run these two line on the gene file first:
-# awk '{if(NR%2==1){print $0}}' TryTrypDB_Aug2017_alltRNAs.tfam.fas > temp.txt
-# awk '{for(i=1; i < NF; i++){if(match($i,"sourceorganism*")){print $0; break;}}}' temp.txt > inputgenefile.txt
-# we also ignored the sequences that has NNNNNN in them and they did not have the field araseq
-# All the Reference .fasta Genome files are in the folder ReferenceGenomes in the currect directory along with the gene file
+Finally, using this output.txt file and [leishmania.R script](https://github.com/fhadinezhadUC/leshmania/blob/master/leishmania.R) we can get the fallowing diagrams to see how the data looks like.
 
-![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/figures/Genes.jpeg)
+Frequency of identical genes (same organism, same color)
+![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/figures/genes2.jpeg)
+
+Frequency of identical genes (?)
+![alt text](![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/figures/Genes.jpeg))
+
+Frequency of GeneOrganism. To see how many repeats of same gene with same source organism we have in the data. (same organism, same color)
+![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/figures/p1org.jpeg)
+
+Frequency of GeneOrganism. To see how many repeats of same gene with same source organism we have in the data. (same gene, same color)
+![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/figures/pgene.jpeg)
+
+Genes VS. Number of hits (same organism same colour )
+![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/figures/NumberofHits.svg)
 
 
 
