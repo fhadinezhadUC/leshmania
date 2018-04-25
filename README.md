@@ -17,17 +17,19 @@ Blechomonas_ayalai_B08-376|ggggatgtagctcaaatggtagagcgaccgcttagcatgcggtaggtattggg
 
 Finally, using this output.txt file and [leishmania.R script](https://github.com/fhadinezhadUC/leshmania/blob/master/leishmania.R) we can get the fallowing diagrams to see how the data looks like.
 
+
 Frequency of identical genes (same organism, same color)
 ![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/figures/genes2.jpeg)
+![alt text](![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/figures/Genes.jpeg)
 
-Frequency of identical genes (?)
-![alt text](![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/figures/Genes.jpeg))
 
 Frequency of GeneOrganism. To see how many repeats of same gene with same source organism we have in the data. (same organism, same color)
 ![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/figures/p1org.jpeg)
 
+
 Frequency of GeneOrganism. To see how many repeats of same gene with same source organism we have in the data. (same gene, same color)
 ![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/figures/pgene.jpeg)
+
 
 Genes VS. Number of hits (same organism same colour )
 ![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/figures/NumberofHits.svg)
