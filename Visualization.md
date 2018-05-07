@@ -1,4 +1,4 @@
-#### vidualizartion of Leishmanina genes mapped on Trypanosoma_cruzi_Dm28c.fasta using bowtie2 and Tablet
+#### Leishmanina genes mapped on Trypanosoma_cruzi_Dm28c.fasta using bowtie2 and Tablet
 
 `
 bowtie2-build -f  Trypanosoma_cruzi_Dm28c.fasta Trypanosoma_cruzi_Dm28c
