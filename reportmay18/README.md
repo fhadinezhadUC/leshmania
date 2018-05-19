@@ -10,6 +10,7 @@ So, I picked three genomes Leishmania_donovani_BPK282A1, Leishmania_donovani_str
 - So, I tried to find the orthologous genes of Leishmania_infantum_JPCM5 genes in other two genomes (Leishmania_donovani_BPK282A1, Leishmania_donovani_strain_BHU_1220) using the fallowing steps:
 
 ** step1. finding clusters: each cluster can have x number of genes whose distance from their neighbor genes is less than 10k (we had 35 clusters in Leishmania_infantum_JPCM5)
+
 ** step2. finding tight anchors around the clusters: Pick a 10k flanking region around each cluster and align it to the other genomes(donovani_BPK282A1 and donovani_strain_BHU_1220) and stored the alignment position if any available. 
 
 ** step3. if two clusters are in each other’s tight anchors, we connect them together as a candidate for being orthogroups.
@@ -23,8 +24,11 @@ These three pictures are the genes aligned to three genomes for cluster 21.
 
 The scripts are also available in "extractflankingseq.sh", "make_component.R", "make_Graph.R"
 
+Leishmania_donovani_BPK282A1
 ![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/reportmay18/figures/se21donovi_BP2.png)
 
+Leishmania_donovani_strain_BHU_1220
 ![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/reportmay18/figures/set21donovi_strain.png)
 
+Leishmania_infantum_JPCM5
 ![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/reportmay18/figures/set21infantum.png)
