@@ -1,0 +1,27 @@
+[1] "infantum"
+    seqname position                                                                              sequence newset
+100 LinJ.36  2187349 GTCCTTCCGGCCGGAATCGAACCAGCGACCCTGTGATACCTGCGAACTCTACAGTCACATGCTCTACCAATTGAGCTACAGAAGG     35
+    seqname position                                                                             sequence newset
+101 LinJ.36  2187350 TCCTTCCGGCCGGAATCGAACCAGCGACCCTGTGATACCTGCGAACTCTACAGTCACATGCTCTACCAATTGAGCTACAGAAGG     35
+    seqname position                                                                 sequence newset
+102 LinJ.36  2187515 AGGCCGCTAGGGGGATCGAACCCCTGACCTCCGTCTTACTAGGACGGCGCTCTGCCATTGAGCTAAGCAGCC     35
+    seqname position                                                                 sequence newset
+103 LinJ.36  2188465 GGCTGCTTAGCTCAATGGCAGAGCGCCGTCCTAGTAAGACGGAGGTCAGGGGTTCGATCCCCCTAGCGGCCT     35
+    seqname position                                                                             sequence newset
+104 LinJ.36  2188618 CCTTCTGTAGCTCAATTGGTAGAGCATGTGACTGTAGAGTTCGCAGGTATCACAGGGTCGCTGGTTCGATTCCGGCCGGAAGGA     35
+    seqname position                                                                              sequence newset
+105 LinJ.36  2188618 CCTTCTGTAGCTCAATTGGTAGAGCATGTGACTGTAGAGTTCGCAGGTATCACAGGGTCGCTGGTTCGATTCCGGCCGGAAGGAC     35
+[1] "donovani_strain"
+       seqname position                                                                 sequence newset
+104 CM002176.1  2216049 AGGCCGCTAGGGGGATCGAACCCCTGACCTCCGTCTTACTAGGACGGCGCTCTGCCATTGAGCTAAGCAGCC     35
+       seqname position                                                                 sequence newset
+105 CM002176.1  2216998 GGCTGCTTAGCTCAATGGCAGAGCGCCGTCCTAGTAAGACGGAGGTCAGGGGTTCGATCCCCCTAGCGGCCT     35
+       seqname position                                                                 sequence newset
+106 CM002176.1  2217398 GGCTGCTTAGCTCAATGGCAGAGCGCCGTCCTAGTAAGACGGAGGTCAGGGGTTCGATCCCCCTAGCGGCCT     35
+[1] "donovani_BP"
+       seqname position                                                                 sequence newset
+105 Ld36_v01s1  2216052 AGGCCGCTAGGGGGATCGAACCCCTGACCTCCGTCTTACTAGGACGGCGCTCTGCCATTGAGCTAAGCAGCC     35
+       seqname position                                                                 sequence newset
+106 Ld36_v01s1  2217001 GGCTGCTTAGCTCAATGGCAGAGCGCCGTCCTAGTAAGACGGAGGTCAGGGGTTCGATCCCCCTAGCGGCCT     35
+       seqname position                                                                 sequence newset
+107 Ld36_v01s1  2217401 GGCTGCTTAGCTCAATGGCAGAGCGCCGTCCTAGTAAGACGGAGGTCAGGGGTTCGATCCCCCTAGCGGCCT     35

@@ -1,0 +1,29 @@
+[1] "infantum"
+   seqname position                                                                   sequence newset
+21 LinJ.11   204467 TCATCCGTGACAGGATTCGAACCTGCAACCCTCTGATCCGTAGTCAGATGCTCTTCCATTGAGCCACACGGACA     11
+   seqname position                                                                 sequence newset
+22 LinJ.11   204468 CATCCGTGACAGGATTCGAACCTGCAACCCTCTGATCCGTAGTCAGATGCTCTTCCATTGAGCCACACGGAC     11
+   seqname position                                                                  sequence newset
+23 LinJ.11   204615 GCGAGCGTAGCGCAGTCGGCAGCGCGTGGGTCTCATAATCCCAAGGTCGTGAGTTCGATCCTCACCGGTCGCA     11
+[1] "donovani_strain"
+      seqname position                                                                   sequence newset
+21 CM002151.1   207756 TCATCCGTGACAGGATTCGAACCTGCAACCCTCTGATCCGTAGTCAGATGCTCTTCCATTGAGCCACACGGACA     11
+      seqname position                                                                 sequence newset
+22 CM002151.1   207757 CATCCGTGACAGGATTCGAACCTGCAACCCTCTGATCCGTAGTCAGATGCTCTTCCATTGAGCCACACGGAC     11
+      seqname position                                                                   sequence newset
+23 CM002151.1   208303 TCATCCGTGACAGGATTCGAACCTGCAACCCTCTGATCCGTAGTCAGATGCTCTTCCATTGAGCCACACGGACA     11
+      seqname position                                                                 sequence newset
+24 CM002151.1   208304 CATCCGTGACAGGATTCGAACCTGCAACCCTCTGATCCGTAGTCAGATGCTCTTCCATTGAGCCACACGGAC     11
+      seqname position                                                                  sequence newset
+25 CM002151.1   208451 GCGAGCGTAGCGCAGTCGGCAGCGCGTGGGTCTCATAATCCCAAGGTCGTGAGTTCGATCCTCACCGGTCGCA     11
+[1] "donovani_BP"
+      seqname position                                                                   sequence newset
+21 Ld11_v01s1   207756 TCATCCGTGACAGGATTCGAACCTGCAACCCTCTGATCCGTAGTCAGATGCTCTTCCATTGAGCCACACGGACA     11
+      seqname position                                                                 sequence newset
+22 Ld11_v01s1   207757 CATCCGTGACAGGATTCGAACCTGCAACCCTCTGATCCGTAGTCAGATGCTCTTCCATTGAGCCACACGGAC     11
+      seqname position                                                                   sequence newset
+23 Ld11_v01s1   208303 TCATCCGTGACAGGATTCGAACCTGCAACCCTCTGATCCGTAGTCAGATGCTCTTCCATTGAGCCACACGGACA     11
+      seqname position                                                                 sequence newset
+24 Ld11_v01s1   208304 CATCCGTGACAGGATTCGAACCTGCAACCCTCTGATCCGTAGTCAGATGCTCTTCCATTGAGCCACACGGAC     11
+      seqname position                                                                  sequence newset
+25 Ld11_v01s1   208451 GCGAGCGTAGCGCAGTCGGCAGCGCGTGGGTCTCATAATCCCAAGGTCGTGAGTTCGATCCTCACCGGTCGCA     11

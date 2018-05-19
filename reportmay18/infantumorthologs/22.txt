@@ -1,0 +1,5 @@
+[1] "infantum"
+   seqname position                                                                 sequence newset
+54 LinJ.24   161103 TTCTCGGTAGTATAGTGGTTAGTATACCCGCCTGTCACGCGGGTGACCCGGGTTCAATTCCCGGCCGGGAAG     22
+[1] "donovani_strain"
+[1] "donovani_BP"

@@ -1,0 +1,23 @@
+[1] "infantum"
+   seqname position                                                                 sequence newset
+68 LinJ.31   981774 TCCGATGTGGTATAGTGGATAGAACAAGCGGCTCTCACCCGCTAGACCCGGGTTCGATCCCCGGCATCGGAA     30
+   seqname position                                                                  sequence newset
+69 LinJ.31   981891 GGTGCGCAGTCCGGGAATCGAACCCGGGCCTCCCGCGTGGCAGGCGAGAATTCTACCACTAGACCAACTGCGC     30
+   seqname position                                                                 sequence newset
+70 LinJ.31   981892 GTGCGCAGTCCGGGAATCGAACCCGGGCCTCCCGCGTGGCAGGCGAGAATTCTACCACTAGACCAACTGCGC     30
+   seqname position                                                                sequence newset
+71 LinJ.31   981893 TGCGCAGTCCGGGAATCGAACCCGGGCCTCCCGCGTGGCAGGCGAGAATTCTACCACTAGACCAACTGCGC     30
+[1] "donovani_strain"
+      seqname position                                                                 sequence newset
+69 CM002171.1  1035283 TCCGATGTGGTATAGTGGATAGAACAAGCGGCTCTCACCCGCTAGACCCGGGTTCGATCCCCGGCATCGGAA     29
+      seqname position                                                                  sequence newset
+70 CM002171.1  1035404 GGTGCGCAGTCCGGGAATCGAACCCGGGCCTCCCGCGTGGCAGGCGAGAATTCTACCACTAGACCAACTGCGC     29
+      seqname position                                                                 sequence newset
+71 CM002171.1  1035405 GTGCGCAGTCCGGGAATCGAACCCGGGCCTCCCGCGTGGCAGGCGAGAATTCTACCACTAGACCAACTGCGC     29
+[1] "donovani_BP"
+      seqname position                                                                 sequence newset
+70 Ld31_v01s1  1035283 TCCGATGTGGTATAGTGGATAGAACAAGCGGCTCTCACCCGCTAGACCCGGGTTCGATCCCCGGCATCGGAA     29
+      seqname position                                                                  sequence newset
+71 Ld31_v01s1  1035404 GGTGCGCAGTCCGGGAATCGAACCCGGGCCTCCCGCGTGGCAGGCGAGAATTCTACCACTAGACCAACTGCGC     29
+      seqname position                                                                 sequence newset
+72 Ld31_v01s1  1035405 GTGCGCAGTCCGGGAATCGAACCCGGGCCTCCCGCGTGGCAGGCGAGAATTCTACCACTAGACCAACTGCGC     29

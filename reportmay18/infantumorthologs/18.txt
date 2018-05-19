@@ -1,0 +1,23 @@
+[1] "infantum"
+   seqname position                                                                   sequence newset
+37 LinJ.21   313618 GCGCACTCCGTGGGGATCGAACCCACGACCACACGGTTAAGAGCCGTGCGCTCTACCGACTGAGCTAGGAATGC     18
+   seqname position                                                                  sequence newset
+38 LinJ.21   313619 CGCACTCCGTGGGGATCGAACCCACGACCACACGGTTAAGAGCCGTGCGCTCTACCGACTGAGCTAGGAATGC     18
+   seqname position                                                                    sequence newset
+39 LinJ.21   313754 GTACGCAGTTCGGGACTCGAACCCGAGACCTTCGCCGTGTTAAAGCGACGTCATAACCACCTAGACCAACCGCGC     18
+   seqname position                                                                 sequence newset
+40 LinJ.21   313960 GGGTCCAGCCGGGAATTGAACCCGGGACCTCTCCCACCCTAAGGGAGAATCATGCCACTAGACCACTGGACC     18
+[1] "donovani_strain"
+      seqname position                                                                   sequence newset
+42 CM002161.1   319132 GCGCACTCCGTGGGGATCGAACCCACGACCACACGGTTAAGAGCCGTGCGCTCTACCGACTGAGCTAGGAATGC     19
+      seqname position                                                                  sequence newset
+43 CM002161.1   319133 CGCACTCCGTGGGGATCGAACCCACGACCACACGGTTAAGAGCCGTGCGCTCTACCGACTGAGCTAGGAATGC     19
+      seqname position                                                                    sequence newset
+44 CM002161.1   319268 GTACGCAGTTCGGGACTCGAACCCGAGACCTTCGCCGTGTTAAAGCGACGTCATAACCACCTAGACCAACCGCGC     19
+[1] "donovani_BP"
+      seqname position                                                                   sequence newset
+43 Ld21_v01s1   319132 GCGCACTCCGTGGGGATCGAACCCACGACCACACGGTTAAGAGCCGTGCGCTCTACCGACTGAGCTAGGAATGC     19
+      seqname position                                                                  sequence newset
+44 Ld21_v01s1   319133 CGCACTCCGTGGGGATCGAACCCACGACCACACGGTTAAGAGCCGTGCGCTCTACCGACTGAGCTAGGAATGC     19
+      seqname position                                                                    sequence newset
+45 Ld21_v01s1   319268 GTACGCAGTTCGGGACTCGAACCCGAGACCTTCGCCGTGTTAAAGCGACGTCATAACCACCTAGACCAACCGCGC     19

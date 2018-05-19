@@ -1,0 +1,23 @@
+[1] "infantum"
+  seqname position                                                                sequence newset
+8 LinJ.09   158609 AGGGGAAACCGGGAATCGGACCCGGGTATTCAGAGCCACAATCTGATGTTCTGCCACTGAACTATTTCCCC      7
+  seqname position                                                                  sequence newset
+9 LinJ.09   158745 GCAACGCTGATGGGGGTCGAACCCACAACCTTCGGATCCGGAATCCGACGCGCTTCCATTGCGCCACAACGTC      7
+   seqname position                                                                      sequence newset
+10 LinJ.09   158890 TGCGATGGTCGTCTAGTGGTTAGGACATTCGCCTCACACGCGAGAGATCGCGGGTTCAATCCCCGCCCGTCGTACCC      7
+   seqname position                                                                 sequence newset
+11 LinJ.09   159202 TCCGATGTAGTATAACGGTTAGAACACCTGGCTTTCACCCAGGAGATCCGGGTTCGATTCCCGGTATCGGAG      7
+[1] "donovani_strain"
+     seqname position                                                                sequence newset
+8 CM002149.1   158254 AGGGGAAACCGGGAATCGGACCCGGGTATTCAGAGCCACAATCTGATGTTCTGCCACTGAACTATTTCCCC      7
+     seqname position                                                                  sequence newset
+9 CM002149.1   158390 GCAACGCTGATGGGGGTCGAACCCACAACCTTCGGATCCGGAATCCGACGCGCTTCCATTGCGCCACAACGTC      7
+      seqname position                                                                      sequence newset
+10 CM002149.1   158535 TGCGATGGTCGTCTAGTGGTTAGGACATTCGCCTCACACGCGAGAGATCGCGGGTTCAATCCCCGCCCGTCGTACCC      7
+[1] "donovani_BP"
+     seqname position                                                                sequence newset
+8 Ld09_v01s1   158254 AGGGGAAACCGGGAATCGGACCCGGGTATTCAGAGCCACAATCTGATGTTCTGCCACTGAACTATTTCCCC      7
+     seqname position                                                                  sequence newset
+9 Ld09_v01s1   158390 GCAACGCTGATGGGGGTCGAACCCACAACCTTCGGATCCGGAATCCGACGCGCTTCCATTGCGCCACAACGTC      7
+      seqname position                                                                      sequence newset
+10 Ld09_v01s1   158535 TGCGATGGTCGTCTAGTGGTTAGGACATTCGCCTCACACGCGAGAGATCGCGGGTTCAATCCCCGCCCGTCGTACCC      7

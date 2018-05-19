@@ -1,0 +1,9 @@
+[1] "infantum"
+  seqname position                                                                  sequence newset
+2 LinJ.03   120660 CGCACTCCGTGGGGATCGAACCCACGACCACACGGTTAAGAGCCGTGCGCTCTACCGACTGAGCTAGGAATGC      2
+[1] "donovani_strain"
+     seqname position                                                                  sequence newset
+2 CM002143.1   128749 CGCACTCCGTGGGGATCGAACCCACGACCACACGGTTAAGAGCCGTGCGCTCTACCGACTGAGCTAGGAATGC      2
+[1] "donovani_BP"
+     seqname position                                                                  sequence newset
+2 Ld03_v01s1   128749 CGCACTCCGTGGGGATCGAACCCACGACCACACGGTTAAGAGCCGTGCGCTCTACCGACTGAGCTAGGAATGC      2

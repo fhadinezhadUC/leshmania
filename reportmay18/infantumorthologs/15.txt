@@ -1,0 +1,13 @@
+[1] "infantum"
+   seqname position                                                                    sequence newset
+30 LinJ.17   341756 GTTGGAGAAGTTGGGTATCGATCCCAATACCTACCGCATGCTAAGCGGTCGCTCTACCATCTGAGCTACATCCCC     15
+   seqname position                                                                     sequence newset
+31 LinJ.17   341756 GTTGGAGAAGTTGGGTATCGATCCCAATACCTACCGCATGCTAAGCGGTCGCTCTACCATCTGAGCTACATCCCCA     15
+   seqname position                                                                           sequence newset
+32 LinJ.17   341890 GCGCAAACGGAAGGGTTCGAACCTTCGCGTGAGATCACACCTGCTTAGCAGGCAGGCGCCTTAACCACTCGGCCACATTTGC     15
+   seqname position                                                                 sequence newset
+33 LinJ.17   342048 TTCTCGGTAGTATAGTGGTTAGTATACCCGCCTGTCACGCGGGTGACCCGGGTTCAATTCCCGGCCGGGAAG     15
+   seqname position                                                                  sequence newset
+34 LinJ.17   342048 TTCTCGGTAGTATAGTGGTTAGTATACCCGCCTGTCACGCGGGTGACCCGGGTTCAATTCCCGGCCGGGAAGC     15
+[1] "donovani_strain"
+[1] "donovani_BP"

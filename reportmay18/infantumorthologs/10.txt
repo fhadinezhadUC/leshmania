@@ -1,0 +1,23 @@
+[1] "infantum"
+   seqname position                                                                  sequence newset
+17 LinJ.10    36809 TCCTCCCTGGCGCAGTCGGCAGCGTGTTAGGCTGTTAACCTACAGGTCGTTGGTTCGAATCCAACGGGAGGAG     10
+   seqname position                                                                sequence newset
+18 LinJ.10    36941 GCGCAGTTGGTCTAGTGGTAGAATTCTCGCCTGCCACGCGGGAGGCCCGGGTTCGATTCCCGGACTGCGCA     10
+   seqname position                                                                   sequence newset
+19 LinJ.10    37079 GCGCACTCCGTGGGGATCGAACCCACGACCACACGGTTAAGAGCCGTGCGCTCTACCGACTGAGCTAGGAATGC     10
+   seqname position                                                                  sequence newset
+20 LinJ.10    37080 CGCACTCCGTGGGGATCGAACCCACGACCACACGGTTAAGAGCCGTGCGCTCTACCGACTGAGCTAGGAATGC     10
+[1] "donovani_strain"
+      seqname position                                                                  sequence newset
+17 CM002150.1    38004 TCCTCCCTGGCGCAGTCGGCAGCGCGTTAGGCTGTTAACCTACAGGTCGTTGGTTCGAATCCAACGGGAGGAG     10
+      seqname position                                                                sequence newset
+18 CM002150.1    38136 GCGCAGTTGGTCTAGTGGTAGAATTCTCGCCTGCCACGCGGGAGGCCCGGGTTCGATTCCCGGACTGCGCA     10
+      seqname position                                                                   sequence newset
+19 CM002150.1    38274 GCGCACTCCGTGGGGATCGAACCCACGACCACACGGTTAAGAGCCGTGCGCTCTACCGACTGAGCTAGGAATGC     10
+[1] "donovani_BP"
+      seqname position                                                                  sequence newset
+17 Ld10_v01s1    38004 TCCTCCCTGGCGCAGTCGGCAGCGCGTTAGGCTGTTAACCTACAGGTCGTTGGTTCGAATCCAACGGGAGGAG     10
+      seqname position                                                                sequence newset
+18 Ld10_v01s1    38136 GCGCAGTTGGTCTAGTGGTAGAATTCTCGCCTGCCACGCGGGAGGCCCGGGTTCGATTCCCGGACTGCGCA     10
+      seqname position                                                                   sequence newset
+19 Ld10_v01s1    38274 GCGCACTCCGTGGGGATCGAACCCACGACCACACGGTTAAGAGCCGTGCGCTCTACCGACTGAGCTAGGAATGC     10

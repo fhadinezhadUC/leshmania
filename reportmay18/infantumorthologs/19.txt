@@ -1,0 +1,9 @@
+[1] "infantum"
+   seqname position                                                                          sequence newset
+41 LinJ.21   596391 GCAAACGTGGCCGAGTGGTTAAGGCGCCTGCCTGCTAAGCAGGTGTGATCTCACGCGAAGGTTCGAACCCTTCCGTTTGCG     19
+[1] "donovani_strain"
+      seqname position                                                                          sequence newset
+46 CM002161.1   603337 GCAAACGTGGCCGAGTGGTTAAGGCGCCTGCCTGCTAAGCAGGTGTGATCTCACGCGAAGGTTCGAACCCTTCCGTTTGCG     20
+[1] "donovani_BP"
+      seqname position                                                                          sequence newset
+47 Ld21_v01s1   603337 GCAAACGTGGCCGAGTGGTTAAGGCGCCTGCCTGCTAAGCAGGTGTGATCTCACGCGAAGGTTCGAACCCTTCCGTTTGCG     20

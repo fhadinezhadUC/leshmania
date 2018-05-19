@@ -1,0 +1,37 @@
+[1] "infantum"
+   seqname position                                                                  sequence newset
+96 LinJ.36   211393 GGGGTCGTTACGGGAATTGAACCCGTGACCTCCTGTACCCAAAACAGGAATCATACCACTAGACCAAACGACC     34
+   seqname position                                                                 sequence newset
+97 LinJ.36   211539 AGCACCGTAGCGCAGTGGAAGCGCGATGGGCTCATAACCCATAGGTCGTTGGATCGAAACCAATCGGTGCTA     34
+   seqname position                                                                           sequence newset
+98 LinJ.36   211672 GGTGAGATGGTCGAGTGGTCTAAGACGTTGGATTAAGGTTCCAATCCTTTCGAGGGCGTGGGTTCAAACCCCACTCTCATCA     34
+   seqname position                                                                   sequence newset
+99 LinJ.36   212542 GAAGGACCCACCCGGGTTTGAACCGGGGACCATTCGGACTGCAGCCGAATGCTCTACCACTGAGCTATGAATCC     34
+   seqname position                                                                 sequence newset
+91 LinJ.36  1649602 GGGTCCAGCCGGGAATTGAACCCGGGACCTCTCCCACCCTAAGGGAGAATCATGCCACTAGACCACTGGACC     34
+   seqname position                                                                sequence newset
+92 LinJ.36  1649746 GCGCAGTTGGTCTAGTGGTAGAATTCTCGCCTGCCACGCGGGAGGCCCGGGTTCGATTCCCGGACTGCGCA     34
+   seqname position                                                                 sequence newset
+93 LinJ.36  1649883 GGCTGCTTAGCTCAATGGCAGAGCGCCGTCCTAGTAAGACGGAGGTCAGGGGTTCGATCCCCCTAGCGGCCT     34
+   seqname position                                                                 sequence newset
+94 LinJ.36  1650509 GTGCGCAGTCCGGGAATCGAACCCGGGCCTCCCGCGTGGCAGGCGAGAATTCTACCACTAGACCAACTGCGC     34
+   seqname position                                                                sequence newset
+95 LinJ.36  1650510 TGCGCAGTCCGGGAATCGAACCCGGGCCTCCCGCGTGGCAGGCGAGAATTCTACCACTAGACCAACTGCGC     34
+[1] "donovani_strain"
+      seqname position                                                                 sequence newset
+95 CM002176.1  1670712 GGGTCCAGCCGGGAATTGAACCCGGGACCTCTCCCACCCTAAGGGAGAATCATGCCACTAGACCACTGGACC     34
+      seqname position                                                                sequence newset
+96 CM002176.1  1670857 GCGCAGTTGGTCTAGTGGTAGAATTCTCGCCTGCCACGCGGGAGGCCCGGGTTCGATTCCCGGACTGCGCA     34
+      seqname position                                                                 sequence newset
+97 CM002176.1  1670995 GGCTGCTTAGCTCAATGGCAGAGCGCCGTCCTAGTAAGACGGAGGTCAGGGGTTCGATCCCCCTAGCGGCCT     34
+      seqname position                                                                 sequence newset
+98 CM002176.1  1671618 GTGCGCAGTCCGGGAATCGAACCCGGGCCTCCCGCGTGGCAGGCGAGAATTCTACCACTAGACCAACTGCGC     34
+[1] "donovani_BP"
+      seqname position                                                                 sequence newset
+96 Ld36_v01s1  1670715 GGGTCCAGCCGGGAATTGAACCCGGGACCTCTCCCACCCTAAGGGAGAATCATGCCACTAGACCACTGGACC     34
+      seqname position                                                                sequence newset
+97 Ld36_v01s1  1670860 GCGCAGTTGGTCTAGTGGTAGAATTCTCGCCTGCCACGCGGGAGGCCCGGGTTCGATTCCCGGACTGCGCA     34
+      seqname position                                                                 sequence newset
+98 Ld36_v01s1  1670998 GGCTGCTTAGCTCAATGGCAGAGCGCCGTCCTAGTAAGACGGAGGTCAGGGGTTCGATCCCCCTAGCGGCCT     34
+      seqname position                                                                 sequence newset
+99 Ld36_v01s1  1671621 GTGCGCAGTCCGGGAATCGAACCCGGGCCTCCCGCGTGGCAGGCGAGAATTCTACCACTAGACCAACTGCGC     34
