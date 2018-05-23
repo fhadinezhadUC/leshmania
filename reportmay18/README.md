@@ -36,6 +36,6 @@ Leishmania_infantum_JPCM5
 
 The next things to do are:
 
-- to use the protein coding regions to make the anchors tigher.
-- for each cluster do a many to many alignment using a defined genomic distance (dependent on the genomes distance on phylogenetic tree, the number of genes in the same cluster, the distance between the genes in cluster, etc.)
--find an anchor for those clusters whose 10k flanking region was not alignable (by probably doing a local alignment for a 100k or more region around the cluster.) 
+- Use the protein coding regions to make the anchors tigher.
+- Doing a many to many alignment for each cluster  using a defined genomic distance (dependent on the genomes distance on phylogenetic tree, the number of genes in the same cluster, the distance between the genes in cluster, etc.)
+- Finding an anchor for those clusters whose 10k flanking region was not alignable (by probably doing a local alignment for a 100k or more region around the cluster.) 
