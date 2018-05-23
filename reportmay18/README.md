@@ -32,3 +32,10 @@ Leishmania_donovani_strain_BHU_1220
 
 Leishmania_infantum_JPCM5
 ![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/reportmay18/figures/set21infantum.png)
+
+
+The next things to do are:
+
+> to use the protein coding regions to make the anchors tigher.
+> for each cluster do a many to many alignment using a defined genomic distance (dependent on the genomes distance on phylogenetic tree, the number of genes in the same cluster, the distance between the genes in cluster, etc.)
+> find an anchor for those clusters whose 10k flanking region was not alignable (by probably doing a local alignment for a 100k or more region around the cluster.) 
