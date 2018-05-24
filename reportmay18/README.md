@@ -33,6 +33,9 @@ Leishmania_donovani_strain_BHU_1220
 Leishmania_infantum_JPCM5
 ![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/reportmay18/figures/set21infantum.png)
 
+Then gene comparison for three genomes:
+
+![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/reportmay18/figures/GeneComparisonvanDiagram.jpeg)
 
 The next things to do are:
 
