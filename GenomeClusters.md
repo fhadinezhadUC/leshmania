@@ -14,3 +14,5 @@ Trypanosoma_brucei_gambiense:
 Trypanosoma_evansi:
 
 ![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/figures/Trypanosoma_evansi_clusters.svg)
+
+Here is the [Script](https://github.com/fhadinezhadUC/leshmania/blob/master/geneorder.R).
