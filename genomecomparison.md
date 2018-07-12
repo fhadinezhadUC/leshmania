@@ -1,5 +1,5 @@
 
-Camparing genome by two parameters for each genome :
+Camparing genomes by two factors for each genome :
 
 
 - sequence count comparison (blue bar in plot) = (number of sequences in the genome/length of genome)*average length of all genomes
