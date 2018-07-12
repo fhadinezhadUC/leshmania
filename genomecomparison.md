@@ -2,8 +2,8 @@
 Camparing genome by two parameters for each genome :
 
 
-sequence count comparison (blue bar in plot) = (number of sequences in the genome/length of genome)*average length of all genomes
-sequence length comparison (red bar in the plot) = (average length of sequences in the genome / length of genome) * 100000
+- sequence count comparison (blue bar in plot) = (number of sequences in the genome/length of genome)*average length of all genomes
+- sequence length comparison (red bar in the plot) = (average length of sequences in the genome / length of genome) * 100000
 
 [Script](https://github.com/fhadinezhadUC/leshmania/blob/master/genomecomparison.R)
 
