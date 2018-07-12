@@ -10,5 +10,5 @@ Camparing genomes by two parameters for each genome :
 ![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/figures/genomecomparison.svg)
 
 So, those with lowest blue bar and highest red bar are those that are well sequenced. 
-for example, as we see from the plot the genome 25 which is "Trypanosoma_brucel_gambience" is well sequence. Also, by looking at the SourceSO for genes that come from this genome we see that all of them are considered "chromosomes".
-Note: I could not use the field "sourceSO" which has the values of: contig, supercontig and chromosome to compare the genomes because not all of the genes had this field!
+for example, as we see from the plot the genome 25 which is "Trypanosoma_brucel_gambience" is well sequenced. Also, by looking at the SourceSO for genes that come from this genome we see that all of them are considered "chromosomes".
+Note: I could not use the field "sourceSO" which has the values of: contig, supercontig and chromosome to compare the genomes because not all of the genes have this field!
