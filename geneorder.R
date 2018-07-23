@@ -9,7 +9,8 @@ genesorder <- function() {
   # files <- list.files() this will give a list of the files in the current directory
   # Trypanosoma_brucei_gambiense_DAL972
   # Trypanosoma_evansi_strain_STIB_805
-  organismname <- "Trypanosoma_evansi_strain_STIB_805" #"Trypanosoma_brucei_gambiense_DAL972" #"Leishmania_infantum_JPCM5"
+  organismname <-
+    "Leishmania_infantum_JPCM5" #"Trypanosoma_brucei_gambiense_DAL972" #"Leishmania_infantum_JPCM5"
   filepath <-
     "/home/fatemeh/leshmania/TryTrypDB_Aug2017_alltRNAs.tfam.fas"
   con = file(filepath, "r")
@@ -149,9 +150,9 @@ genesorder <- function() {
     #
   }
   close(con)
- 
   
- 
+  
+  
   # for now we just take the tse output into account if it was NA then aragorn
   genesummery <-
     data.frame(
@@ -255,27 +256,40 @@ genesorder <- function() {
   library(ggrepel)
   genesummery$begin <- as.integer(genesummery$begin)
   genesummery$end <- as.integer(genesummery$end)
-
+  
   
   # determining the clusters first and then represent each cluster in one plot
-  genesummery <- genesummery[order(genesummery$sourceseq,genesummery$begin),]
+  genesummery <-
+    genesummery[order(genesummery$sourceseq, genesummery$begin),]
   genesummery$cluster <- 0
   genesummery$cluster[1] <- 1
   setnumber <- 1
   #distance <- genecoordinate$position[2] - genecoordinate$position[1]
-  for (i in 1:(length(genesummery$begin)-1)) {
-    distance <- genesummery$begin[i+1] - genesummery$begin[i]
-    if((distance < 10000) && (genesummery$sourceseq[i+1]==genesummery$sourceseq[i])) # make sur it works!
+  for (i in 1:(length(genesummery$begin) - 1)) {
+    distance <- genesummery$begin[i + 1] - genesummery$begin[i]
+    if ((distance < 10000) &&
+        (genesummery$sourceseq[i + 1] == genesummery$sourceseq[i]))
+      # make sur it works!
     {
-      genesummery$cluster[i+1] <- setnumber
+      genesummery$cluster[i + 1] <- setnumber
     }
     else
     {
-      setnumber <- setnumber+1
-      genesummery$cluster[i+1] <- setnumber
+      setnumber <- setnumber + 1
+      genesummery$cluster[i + 1] <- setnumber
     }
   }
-
+  
+  genesummery$clusterbound <- 0
+  genesummery$clusterbound[1] = 1
+  for (i in 2:nrow(genesummery)) {
+    if (genesummery$cluster[i] != genesummery$cluster[i - 1]) {
+      genesummery$clusterbound[i] = 1
+    }
+    
+  }
+  # mydata <- genesummery[genesummery$sourceseq=="STIB805_Chr10",]
+  # Xbreaks <- mydata[mydata$clusterbound==1,]$begin
   # ggplot( data = mydata,
   #         aes(
   #           x = mydata$begin,
@@ -288,40 +302,58 @@ genesorder <- function() {
   #   box.padding   = 0.35,
   #   point.padding = 0.5,
   #   segment.color = 'grey50'
-  # ) + theme(legend.position="none",
+  # ) + scale_x_continuous(breaks = Xbreaks) + theme(legend.position="none",
   #           axis.title.x = element_blank(),
   #           axis.title.y = element_blank(),
   #           plot.margin=unit(c(1,1,0,1), "cm"),
   #           panel.spacing =unit(c(1,1,0,1), "cm"))
-
+  
+  # gplots::plotCI( x = mydata$begin,
+  #                 y = mydata$sourceseq )
+  # axis(
+  #   side=1, # X axis
+  #   at=Xbreaks
+  #   #labels=c("-3","-2","-1", "1","2","3","4","5"),
+  # )
+  # axis.break(axis = 1 , breakpos = 2200000,style = "slash")
+  
+  # begining of each cluster is a break
   
   
-  #ggsave("geneorders.jpg", width = 20, height = 20)
-  #genesummery <- genesummery[genesummery$sourceseq=="LinJ.36",]
-  listofplots <- lapply(1:genesummery$cluster[length(genesummery$cluster)], function(i){
-    mydata = genesummery[genesummery$cluster==i,]
-    ggplot( data = mydata,
-    aes(
-      x = mydata$begin,
-      y = mydata$sourceseq,
-      label = mydata$geneticcode,
-      color = mydata$direction
-    )
-  ) + geom_point()+ theme(legend.position="none",
-            
-            axis.title.x = element_blank(),
-            axis.title.y = element_blank(),
-            plot.margin=unit(c(1,1,0,1), "cm"),
-            panel.spacing =unit(c(1,1,0,1), "cm"))+ theme(axis.text.x=element_text(angle=90, hjust=1))
+  #genesummery <-
+  #  genesummery[genesummery$sourceseq == "STIB805_Chr10", ]
+  listofplots <-
+    lapply(genesummery$cluster[1]:(genesummery$cluster[length(genesummery$cluster)]), function(i) {
+      mydata = genesummery[genesummery$cluster == i,]
+      ggplot(
+        data = mydata,
+        aes(
+          x = mydata$begin,
+          y = mydata$sourceseq,
+          label = mydata$geneticcode,
+          color = mydata$direction
+        )
+      ) + geom_point() + theme(
+        legend.position = "none",
+        axis.title.x = element_blank(),
+        axis.title.y = element_blank(),
+        axis.text.x = element_blank(), 
+        plot.margin = unit(c(1, 1, 0, 1), "cm"),
+        panel.spacing = unit(c(1, 1, 0, 1), "cm")
+      ) + geom_label_repel(
+        aes(label = mydata$geneticcode),
+        box.padding   = 0.35,
+        point.padding = 0.5,
+        segment.color = 'grey50'
+      ) + theme(axis.text.x = element_text(angle = 90, hjust = 1))
     })
-  #+ theme_bw() + xlab("position") + ylab("reference sequence")})
-  #ggsave("geneorders.jpg", width = 20, height = 20)
-  do.call(grid.arrange, listofplots)
- # grid.arrange(listofplots[[1]],listofplots[[2]],listofplots[[3]],listofplots[[4]],listofplots[[5]],listofplots[[6]],listofplots[[7]],listofplots[[8]],listofplots[[9]],listofplots[[10]],listofplots[[11]],
- #              listofplots[[12]],listofplots[[13]],listofplots[[14]],listofplots[[15]],listofplots[[16]],listofplots[[17]],listofplots[[18]],listofplots[[19]],listofplots[[20]],listofplots[[21]],ncol=4)
- 
- genesummery
-
+  
+  print(length(listofplots))
+  g <- do.call(arrangeGrob,c(listofplots))#,ncol=4))
+  ggsave(file="Leishmania_infantum_JPCM5.jpg", g)
+  
+  genesummery
+  
 }
 
 #
