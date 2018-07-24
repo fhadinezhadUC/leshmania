@@ -6,13 +6,16 @@ Here is three examples for genome "infantum" and two genomes that I found the be
 Infantum :
 
 ![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/figures/clusters_infantum.svg)
+![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/figures/Leishmania_infantum_JPCM5.jpg)
 
 Trypanosoma_brucei_gambiense:
 
 ![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/figures/Trypanosoma_brucei_gambiense_clusters.svg)
+![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/figures/Trypanosoma_brucei_gambiense.jpg)
 
 Trypanosoma_evansi:
 
 ![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/figures/Trypanosoma_evansi_clusters.svg)
+![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/figures/Trypanosoma_evansi_strain.jpg)
 
 Here is the [Script](https://github.com/fhadinezhadUC/leshmania/blob/master/geneorder.R).
