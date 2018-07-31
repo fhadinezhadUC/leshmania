@@ -1,6 +1,6 @@
 ### Finding the intron frequency in the TriTryp genes
 
-* First, By looking at the Gene Length Distribution we see how many of them are more likely to have introns.
+* By looking at the Gene Length Distribution we see how many of them are more likely to have introns.
 
 ![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/intronFrequency/GeneLengthDistribution.svg)
 [script](https://github.com/fhadinezhadUC/leshmania/blob/master/GeneLength.R)
@@ -15,15 +15,15 @@
 
    * In the loops: it should be lowercase 
 
-* The Consensus Structure for our data was:
+* The Consensus Structure for our data based on #=CS line in the alignment file was:
 ```
 >>>>>>>  >>>>  <<<<  >>>>> <<<<<  >>>>> <<<<< <<<<<<<
 ```
 
-   * So, I parsed the "TryTrypDB_Aug2017_alltRNAs.tfam.covea" file based on this Structure and Sprinzl as references to assign the locations to each intron
+* I parsed the "TryTrypDB_Aug2017_alltRNAs.tfam.covea" file based on this Structure and Sprinzl as references to assign the locations to each intron. You can find the script [here](https://github.com/fhadinezhadUC/leshmania/blob/master/intronDist.R)
 
-   * You can find the script [here](https://github.com/fhadinezhadUC/leshmania/blob/master/intronDist.R)
 
+   
 * Here is a brief summery of intron Distribution of our Tri-Tryp Data :
 
 ![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/intronFrequency/IntronLengthDist.svg)
