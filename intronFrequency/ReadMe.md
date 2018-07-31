@@ -5,9 +5,9 @@
 ![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/intronFrequency/GeneLengthDistribution.svg)
 [script](https://github.com/fhadinezhadUC/leshmania/blob/master/GeneLength.R)
 
-The shortest tRNA: TriTrypDB-33_TcruzimarinkelleiB7_Genome_21
+  * The shortest tRNA: TriTrypDB-33_TcruzimarinkelleiB7_Genome_21
 
-The longest tRNA: TriTrypDB-33_TvivaxY486_Genome_34
+  * The longest tRNA: TriTrypDB-33_TvivaxY486_Genome_34
 
 * Conditions for considering a sequence as intron:
 
@@ -20,9 +20,9 @@ The longest tRNA: TriTrypDB-33_TvivaxY486_Genome_34
 >>>>>>>  >>>>  <<<<  >>>>> <<<<<  >>>>> <<<<< <<<<<<<
 ```
 
-So, I parsed the "TryTrypDB_Aug2017_alltRNAs.tfam.covea" file based on this Structure and Sprinzl as reference to assign the locations to each intron
+   * So, I parsed the "TryTrypDB_Aug2017_alltRNAs.tfam.covea" file based on this Structure and Sprinzl as reference to assign the locations to each intron
 
-You can find the script [here](https://github.com/fhadinezhadUC/leshmania/blob/master/intronDist.R)
+   * You can find the script [here](https://github.com/fhadinezhadUC/leshmania/blob/master/intronDist.R)
 
 * Here is a brief summery of intron Distribution of our Tri-Tryp Data :
 
