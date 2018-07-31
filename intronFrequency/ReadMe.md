@@ -1,4 +1,4 @@
-### Finding the intron frequency in the TryTryp genes
+### Finding the intron frequency in the TriTryp genes
 
 * First, By looking at the Gene Length Distribution we see how many of them are more likely to have introns.
 
@@ -20,7 +20,7 @@
 >>>>>>>  >>>>  <<<<  >>>>> <<<<<  >>>>> <<<<< <<<<<<<
 ```
 
-   * So, I parsed the "TryTrypDB_Aug2017_alltRNAs.tfam.covea" file based on this Structure and Sprinzl as reference to assign the locations to each intron
+   * So, I parsed the "TryTrypDB_Aug2017_alltRNAs.tfam.covea" file based on this Structure and Sprinzl as references to assign the locations to each intron
 
    * You can find the script [here](https://github.com/fhadinezhadUC/leshmania/blob/master/intronDist.R)
 
