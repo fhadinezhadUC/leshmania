@@ -1,0 +1,72 @@
+Finding the intron frequency in the TryTryp genes. 
+We looked at genes length to see how many of them can be a candidate for genes that include introns.
+GeneLengthDistribution.svg
+The shortest tRNA: 
+TriTrypDB-33_TcruzimarinkelleiB7_Genome_21
+The longest tRNA:
+TriTrypDB-33_TvivaxY486_Genome_34
+
+weird lines: 
+#=SS                                                         ..>.>.>.>.>....>..>..........>..>...>>......................
+TriTrypDB-33_TcruzimarinkelleiB7_Genome_21                   ............................................................
+#=SS                                                         ............................................................
+TriTrypDB-33_TcruzimarinkelleiB7_Genome_22                   ..G.C.C.G.C....G..A....T..A..G..C...TC......A...GT......T...
+
+Conditions we can consider for considering a sequence as intron: 
+1. it should not be under any "<" or ">" of CS secondary structure.
+2. if it is between two "<" or two ">" and its length os higher that 3?! (what is the shortest length for intron that can happend in tRNAs?)
+3. if it is enclosed with ">" and "<", if its length is higher that 5 (the length of the loop) then find the preserved bases based on other genes and those that are not preserved and its length is higher than 3 are introns
+4. if it is enclosed by "<" and ">", and it is not preserved! (can't the intron be preseverved?) (I guess by preserved I mean not in the cloverleaf structure!) (so I should also have a basic clover leaf structure in mind)
+5. The CS secondary structure is the union of other SS secondaru structures? No! I saw an example for the variable length!   
+6. if there is a sequence if bases that are ... in majority of other sequences. (this doesn't seems a good way because maybe all the genes hae tRNA. So, we should have a picture of cloverleaf for ourself)
+7. put all the CS lines next to each other to make the secondary structure!
+>>>>>>>..>>>> between 7 to 11 (there is just 8in our genes!) (some have that 17 some don't)<<<< >>>>>.......<<<<< variable length arm!(do they conside it intron? if yes how long?) >>>>>.......<<<<< <<<<<<< (they won't show 73:76 ?)
+
+>>>>>>>(8)(9)>>>>(14)(15)(16){2[17,17A] they have one max uppercase }(18)(19)(20){2[20A,20B] they ahve 2 max lowercase}(21) <<<< (there is one base here!(26)) >>>>> (">" should be 6 but there are 5 paired in CS structure!) (32)(33)(34)(35)(36)(37) there are lowercase extra letters here (38) <<<<< (one base here upper case (44)) (45) ***variable length sometimes paied!!*** (48) >>>>>(54)()()()()()(60)<<<<< <<<<<<<
+
+8. are lower-case symbols are used for inserts and uppe case for match?! in the variable length part they were all upper case. can the intron happens on the variable length arm ? 
+
+9. find the introns for each arm sperately. 
+
+
+what are the single stranded numbers for inbetween the arrows according to spritzle?
+ 
+ define an array to assign numbers to each position! 
+ first read the whole CS and assign the numbers to the arrows
+ 
+ Make an intron data frame with colums: "sequence", "location"
+
+1. read the consensus structure (CS) until the 7th ">" into a variable
+2. read sequence ith into a variable  ..................................
+3. for all the letters 
+4. if (the letter was not mapped to an ">")
+5.  {find the next ">" and see how many letters do we have untill then} put it in intron 
+6. read the CS until we get to the first ">"
+7. for all the letters 
+8. if (it was lowercase)
+9. {find the next upper case or end of the array and see how many lower case you find} put it in intron 
+10. read CS until the 4th ">" 
+11. run the line 2:5
+12. (for the visuliztion purpose, save the distribution of Uppercase letters here)
+13. run line 8:9
+14. read the next 4 "<"
+15. run the line 2:5
+16. read untill the next arrow ">"
+17. run the line 8:9 
+18. read next 5 arrows ">" (they shoudl be 6 but CS says there are 5)
+19. run lines 2:5
+20. read untill next "<"
+21. run the line 8:9
+22. read the next 5 "<" 
+23. run linr 2:5
+24. read untill the next ">" in the CS
+25. run 8:9 (variable length)
+26. read next 5 ">" 
+27. run line 2:5
+28. read untill the next "<"
+29. run the line 8:9
+30. read next 12 "<"
+31. run line 2:5
+
+
+
