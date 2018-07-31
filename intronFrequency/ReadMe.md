@@ -9,11 +9,11 @@ The shortest tRNA: TriTrypDB-33_TcruzimarinkelleiB7_Genome_21
 
 The longest tRNA: TriTrypDB-33_TvivaxY486_Genome_34
 
-- Conditions for considering a sequence as intron:
+* Conditions for considering a sequence as intron:
 
--- In the arms: it should not be mapped to any arrow in the Consensus Structure
++ In the arms: it should not be mapped to any arrow in the Consensus Structure
 
--- In the loops: it should be lowercase 
++ In the loops: it should be lowercase 
 
 - The Consensus Structure for our data was:
 ```
