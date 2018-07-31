@@ -6,13 +6,25 @@ Here is three examples for genome "infantum" and two genomes that I found the be
 Infantum :
 
 ![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/figures/clusters_infantum.svg)
+![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/figures/Leishmania_infantum_JPCM5.jpg)
 
 Trypanosoma_brucei_gambiense:
 
 ![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/figures/Trypanosoma_brucei_gambiense_clusters.svg)
+![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/figures/Trypanosoma_brucei_gambiense.jpg)
 
 Trypanosoma_evansi:
 
 ![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/figures/Trypanosoma_evansi_clusters.svg)
+![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/figures/Trypanosoma_evansi_strain.jpg)
 
 Here is the [Script](https://github.com/fhadinezhadUC/leshmania/blob/master/geneorder.R).
+
+By just looking at Trypanosoma_evans and Trypanosoma_brucei, we see how similar they are and how the order of genes in each cluster in preserved. Although there are single gene clusters in bruci such as KCTT that has moved to a different place in evansi.
+
+Also, in cluster 13, in evansi, there are  IAAT and GCTG that are not in bruci! they might have been duplicated into the oposit strand!
+
+CGCA is also duplicated in evansi in cluster 11 in the oposit strand.
+
+We see that the only change here was suplication of three genes and transposition of one other gene! 
+The next thing that I like to do now is to visualize the clusters in two genomes with anchors.
