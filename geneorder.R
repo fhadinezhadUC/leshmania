@@ -245,12 +245,12 @@ genesorder <- function() {
   #print(geneinfo)
   genesummery <-
     genesummery[order(genesummery$sourceseq, genesummery$begin),]
-  genesummery$geneticcode < -0
+  genesummery$geneticcode <- 0
   for (i in 1:nrow(genesummery)) {
     genesummery$geneticcode[i] <-
       paste(genesummery$aminoacid[i], genesummery$ac[i], sep = "")
   }
-  # deletng the last row whici is empty. it is the first row we made to initialize the dynamic data frame
+  # deleting the last row which is empty. it is the first row we made to initialize the dynamic data frame
   genesummery <- genesummery[-c(nrow(genesummery)),]
   library(ggplot2)
   library(ggrepel)
@@ -269,7 +269,6 @@ genesorder <- function() {
     distance <- genesummery$begin[i + 1] - genesummery$begin[i]
     if ((distance < 10000) &&
         (genesummery$sourceseq[i + 1] == genesummery$sourceseq[i]))
-      # make sur it works!
     {
       genesummery$cluster[i + 1] <- setnumber
     }
