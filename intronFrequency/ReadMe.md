@@ -34,14 +34,14 @@ Also, a summary of intron Distribution found by tRNAScan:
 ![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/intronFrequency/tseIntronLengthDist.jpeg)
 ![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/intronFrequency/tseIntronLocationDist.jpeg)
 
-The introns found by tse is a subset of isertions we found from covea alignment file. 
+The introns found by tse is a subset of insertions we found from covea alignment file. 
 
-You can find a summery of introns found by tse in this file:
+You can find a summery of introns found by tse in file [insertionAndIntron.txt](https://github.com/fhadinezhadUC/leshmania/blob/master/intronFrequency/insertionAndIntron.txt)
 
-Also, a set of these intons in this file: 
+Also, a set of these intons in file [SetOfinsertionAndIntron.txt](https://github.com/fhadinezhadUC/leshmania/blob/master/intronFrequency/SetOfinsertionAndIntron.txt)
 
-Also, a summery of insertions that were not considered as intron by tse can be found in this file:  
+Also, a summery of insertions that were not considered as intron by tse can be found in file [insertionsNotintron.txt](https://github.com/fhadinezhadUC/leshmania/blob/master/intronFrequency/insertionsNotintron.txt)  
 
-and the set of these insertions in this file: 
+and the set of these insertions in file [SetOfinsertionsNotintron.txt](https://github.com/fhadinezhadUC/leshmania/blob/master/intronFrequency/SetOfinsertionsNotintron.txt)
 
 
