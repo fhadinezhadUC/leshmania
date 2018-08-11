@@ -9,7 +9,7 @@
 
   * The longest tRNA: TriTrypDB-33_TvivaxY486_Genome_34
 
-* Conditions for considering a sequence as intron:
+* Conditions for considering a sequence as insertion:
 
    * In the arms: it should not be mapped to any arrow in the Consensus Structure
 
@@ -20,13 +20,14 @@
 >>>>>>>  >>>>  <<<<  >>>>> <<<<<  >>>>> <<<<< <<<<<<<
 ```
 
-* I parsed the "TryTrypDB_Aug2017_alltRNAs.tfam.covea" file based on this Structure and Sprinzl as references to assign the locations to each intron. You can find the script [here](https://github.com/fhadinezhadUC/leshmania/blob/master/intronDist.R)
+* I parsed the "TryTrypDB_Aug2017_alltRNAs.tfam.covea" file based on this Structure and Sprinzl as references to assign the locations to each insertion. You can find the script [here](https://github.com/fhadinezhadUC/leshmania/blob/master/intronDist.R)
 
 
    
-* Here is a brief summery of intron Distribution of our Tri-Tryp Data :
+* Here is a brief summery of insertion Distribution of our Tri-Tryp Data :
 
 ![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/intronFrequency/IntronLengthDist.svg)
 
 ![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/intronFrequency/intronlocationdist.svg)
+
 
