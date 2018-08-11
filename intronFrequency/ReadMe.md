@@ -45,3 +45,9 @@ Also, a summery of insertions that were not considered as intron by tse can be f
 and the set of these insertions in file [SetOfinsertionsNotintron.txt](https://github.com/fhadinezhadUC/leshmania/blob/master/intronFrequency/SetOfinsertionsNotintron.txt)
 
 NOTE: We were not able to find extract the intron sequence for genes "Trypanosoma_cruzi_strain_CL_Brener_78" and "Trypanosoma_cruzi_strain_CL_Brener_52" with the given coordinates!
+
+
+Here is the length distribution of insertions that were not considered as intron by tRNAScan :
+![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/intronFrequency/InsertionNottseIntronsLengthDist.jpeg)
+
+
