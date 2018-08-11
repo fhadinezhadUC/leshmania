@@ -22,6 +22,8 @@ geneToDataframe <- function() {
   arascore = ""
   tsecovescore = ""
   geneseq=""
+  tseintronbegin=""
+  tseintronend=""
   geneinfo <-
     data.frame(
       sourceOrg="",
@@ -40,7 +42,9 @@ geneToDataframe <- function() {
       sourceseq = "",
       arascore = "",
       tsecovescore = "",
-      geneseq=""
+      geneseq="",
+      tseintronbegin="",
+      tseintronend=""
     )
   flag = 0
   #Adding the sourceorganism to those genes that don't have it which are :
@@ -61,6 +65,14 @@ geneToDataframe <- function() {
       # if (length(temp) == 0)
       #   temp <- NA
       # geneseq <- substring(temp, 8)
+      temp <- grep("tseintronbegin=*", linearr, value = TRUE)
+      if (length(temp) == 0)
+        temp <- NA
+      tseintronbegin <- substring(temp, 16)
+      temp <- grep("tseintronend=*", linearr, value = TRUE)
+      if (length(temp) == 0)
+        temp <- NA
+      tseintronend <- substring(temp, 14)
       
       temp <- grep("sourceorganism=*", linearr, value = TRUE)
       if (length(temp) == 0)
@@ -151,7 +163,9 @@ geneToDataframe <- function() {
           sourceseq,
           arascore,
           tsecovescore,
-          geneseq
+          geneseq,
+          tseintronbegin,
+          tseintronend
         )
       geneinfo <- rbind(tempdf, geneinfo)
     }
@@ -296,7 +310,9 @@ geneToDataframe <- function() {
       sourceseq = geneinfo$sourceseq,
       arascore = geneinfo$arascore,
       tsecovescore = geneinfo$tsecovescore,
-      geneseq = geneinfo$geneseq
+      geneseq = geneinfo$geneseq,
+      tseintronbegin = geneinfo$tseintronbegin,
+      tseintronend = geneinfo$tseintronend
     )
   genesummery$sourceOrg <- as.character(genesummery$sourceOrg)
   genesummery$identity <- as.character(genesummery$identity)
@@ -388,6 +404,11 @@ geneToDataframe <- function() {
   library(ggrepel)
   genesummery$begin <- as.integer(genesummery$begin)
   genesummery$end <- as.integer(genesummery$end)
+  # genesummery$tseintronbegin = as.integer(geneinfo$tseintronbegin)
+  # genesummery$tseintronend = as.integer(geneinfo$tseintronend)
+  bad <- is.na(genesummery$tseintronbegin)
+  genesummery$tseintronbegin[bad]=0
+  genesummery$tseintronend[bad]=0
   write.table(genesummery,
               "/home/fatemeh/leshmania/mainfolder/geneinfoDF.txt",
               col.names = FALSE,quote = FALSE)
@@ -395,7 +416,4 @@ geneToDataframe <- function() {
   
 }
 
-myseq <- "ATCTCGGCGCGCATCGCGTACGCTACTAGC"
-myseqc <- chartr("ATGC","TACG",myseq)
-myseqrevc <- paste(rev(unlist(strsplit(myseqc,NULL))),collapse="")
 #

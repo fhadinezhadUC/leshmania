@@ -1,0 +1,10 @@
++
+Trypanosoma_cruzi_strain_CL_Brener_78
+>NW_001849475.1:114578-114590
+37
+reverse
++
+Trypanosoma_cruzi_strain_CL_Brener_52
+>NW_001849433.1:90374-90386
+37
+reverse
