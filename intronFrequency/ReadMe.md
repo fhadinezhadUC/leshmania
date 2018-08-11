@@ -26,8 +26,22 @@
    
 * Here is a brief summery of insertion Distribution of our Tri-Tryp Data :
 
-![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/intronFrequency/IntronLengthDist.svg)
+![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/intronFrequency/InsertionLengthDist.jpeg)
 
-![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/intronFrequency/intronlocationdist.svg)
+![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/intronFrequency/insertionlocationdist.jpeg)
+
+Also, a summary of intron Distribution found by tRNAScan: 
+![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/intronFrequency/tseIntronLengthDist.jpeg)
+![alt text](https://github.com/fhadinezhadUC/leshmania/blob/master/intronFrequency/tseIntronLocationDist.jpeg)
+
+The introns found by tse is a subset of isertions we found from covea alignment file. 
+
+You can find a summery of introns found by tse in this file:
+
+Also, a set of these intons in this file: 
+
+Also, a summery of insertions that were not considered as intron by tse can be found in this file:  
+
+and the set of these insertions in this file: 
 
 
