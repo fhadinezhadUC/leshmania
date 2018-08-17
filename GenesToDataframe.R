@@ -294,8 +294,8 @@ geneToDataframe <- function() {
   isNa <- is.na(geneinfo$sourceOrg)
   geneinfo <- geneinfo[!isNa,]
   write.table(geneinfo,
-              "/home/fatemeh/leshmania/mainfolder/geneinfoDF.txt",
-              col.names = FALSE)
+              "/home/fatemeh/leshmania/mainfolder/geneinfoDFFirstDraft.txt",
+              row.names = FALSE)
   # we prefer ara information since the sequence is for them and if it was NA then tse!
   genesummery <-
     data.frame(

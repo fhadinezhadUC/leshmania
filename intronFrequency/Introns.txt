@@ -68,5 +68,6 @@ what are the single stranded numbers for inbetween the arrows according to sprit
 30. read next 12 "<"
 31. run line 2:5
 
+wget -A fasta -m -p -e robots=off -E -k -K -np http://tritrypdb.org/common/downloads/release-9.0/Tcruzi/fasta/
 
 

@@ -1,0 +1,1 @@
+Using the file geneinfoDF.txt that has all the information from gene file, extract the tse and ara coordinates.
