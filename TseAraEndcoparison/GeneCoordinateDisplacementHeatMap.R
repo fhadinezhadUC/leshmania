@@ -36,30 +36,32 @@ GeneCoordinateDisplacement <- function() {
   data$frequency = data$frequency #/ sims
   xbreaks <- as.integer(levels(factor(X)))
   ybreaks <- as.integer(levels(factor(Y)))
-  
+  total <- sum(data$frequency)
+  plottitle <- paste("Empirical joint distribution of end displacements of ", total, " TryTryp genes by two genefinders Aragorn and tRNAscan",sep = "")
   ggplot(data = data, aes(X, Y)) +
     geom_tile(aes(fill = frequency), color = "white") + geom_text(aes(label = frequency)) +
     scale_fill_gradient(low = "lightblue", high = "darkred", name = "frequency") +
     ggtitle(
-      "Empirical joint distribution of end displacements by two genefinders Aragorn and tRNAscan"
-    ) +
+      plottitle
+    ) + 
     theme(plot.margin = unit(c(1.8, .5, 1.75, 1.55), "cm")) + theme(plot.title = element_text(
       color = "#383838",
       face = "bold",
-      size = 18,
-      vjust = 2
+      size = 17,
+      vjust = 4,
+      hjust = 0.5
     )) +
     theme(
       axis.title.x = element_text(
         color = "#383838",
         face = "bold",
-        size = 14,
+        size = 13,
         vjust = -1.5
       ),
       axis.title.y = element_text(
         color = "#383838",
         face = "bold",
-        size = 14,
+        size = 13,
         vjust = 2
       )
     ) +
